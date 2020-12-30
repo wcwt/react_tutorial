@@ -16,7 +16,6 @@ function App(){
       <div>
          <Joke question = "123" answer = "456"/>
          <BadgeVisibility/>
-         <Button className={classes.root}>Styled with Hook API</Button>
       </div>
    )
 }
