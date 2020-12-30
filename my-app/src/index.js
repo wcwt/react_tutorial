@@ -14,7 +14,14 @@ function App(){
    else  
       message = "night"
    
-   return (<h1 style={ {color: "#" } }>Good {message}</h1>)
+   const h1_style = {
+      color: "rgb(121, 33, 194)",
+      backgroundColor:"rgb(190, 133, 91)" ,
+      fontSize: 20
+   }
+   return (
+      <h1 style= {h1_style}>Good {message}</h1>
+   )
 }
 
 ReactDOM.render(<App/>,document.getElementById("root"))
