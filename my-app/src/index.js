@@ -1,5 +1,6 @@
 import React from "react"
 import ReactDOM from "react-dom"
+import BadgeVisibility from "./comp/Box.js"
 
 function Joke(props){
    return(
@@ -13,10 +14,9 @@ function Joke(props){
 function App(){
    return(
       <div>
-         <Joke 
-            question = "123" 
-            answer = "456"
-         />       
+         <Joke question = "123" answer = "456"/>
+         <BadgeVisibility/>
+         <Button className={classes.root}>Styled with Hook API</Button>
       </div>
    )
 }
