@@ -1,0 +1,3 @@
+npx create-reac-app my-app
+cd my-app
+npm start
